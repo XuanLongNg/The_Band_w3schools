@@ -1,0 +1,213 @@
+/* about me */
+#about-me{
+    width: 800px;
+    max-width: 100%;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headtitle, .slogan, .content{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#maincontent .headtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    font: "Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    font-size:30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+#maincontent .slogan{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 22.5px;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+}
+#maincontent .content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+#about-me .member-list{
+    padding: 32px 0;
+}
+#about-me .Name{
+    font-size: 15px;
+    
+}
+#about-me .imgmem{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
+
+/* tour date */
+
+#tour{
+    width: 100%;
+    background-color: black;
+}
+#tour-date{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* schedule */
+
+#tour-date .schedule{
+    margin-top: 40px;
+    background-color: white;
+    list-style: none;
+}
+.schedule > .Time{
+    opacity: 0.5 ;
+}
+.schedule li {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 16px;
+    
+}
+.schedule li .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    margin-top: -2px;
+}
+.schedule .sold-out{
+    padding: 3px 4px;
+    margin-left: 16px;
+    background-color: rgb(244, 67, 54);
+    color:white;
+}
+
+/* location-list */
+.location-list {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+}
+.contentLct{
+    font-size: 15px;
+    line-height: 1.5;
+    font: "Lato", sans-serif;
+    padding: 16px;
+    background-color: white;
+}
+.imglct{
+    width: 100%;
+    display: block;
+}
+.imglct:hover{
+    opacity: 0.6;
+}
+.NameLct{
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
+}
+.TimeLct{
+    margin-top:15px;
+    opacity: 0.6;
+}
+.DescribeLct{
+    margin-top:15px;
+}
+.Buy-button{
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 11px 16px;
+}
+.Buy-button:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+/* responsive */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    #about-me{
+        width: 100%;
+        padding: 80px 20px;
+    }
+    #maincontent .headtitle{
+        font-size:35px;
+    }  
+    #maincontent .slogan{
+        font-size: 18px;
+    }
+    #maincontent .content{
+        width: 100%;
+        font-size: 14px;
+    }
+    #about-me .member-list{
+        padding: 45px 0;
+    }
+    #about-me .Name{
+        font-size: 18px;  
+    }
+    #about-me .imgmem{
+        width: 190px;
+    }
+    #tour-date{
+        width: 100%;
+        padding: 80px 20px;
+    }
+    .schedule li {
+        font-size: 13px;   
+    }
+    .schedule li .quantity{
+        font-size: 18px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .schedule > .Time{
+        opacity: 0.5 ;
+    }
+    .NameLct,
+    .TimeLct,
+    .DescribeLct,
+    .Buy-button{
+        font-size:19px;
+    }
+}
+
+/* Phone */
+@media (max-width: 739px) {
+    #about-me,
+    #tour-date{
+        width: 100%;
+        padding: 80px 20px;
+    }
+    .headtitle, .slogan, .content{
+        width: 100%;
+    }
+    #about-me .member-list div,
+    #tour-date .location-list div{
+        width: 100%;
+        padding-top: 40px;
+        display:block;
+    }
+    #about-me .imgmem{
+        width:55%;
+    }
+}

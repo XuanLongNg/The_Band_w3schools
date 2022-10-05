@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="maincontent.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="model.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="/font/fontawesome-free-6.2.0-web/css/fontawesome.css">
+        <link rel="stylesheet" href="/font/fontawesome-free-6.2.0-web/css/brands.css">
+        <link rel="stylesheet" href="/font/fontawesome-free-6.2.0-web/css/solid.css">
+        <meta charset="utf-8">
+        <meta viewport="width=device-width, initial-scale=1">
+        <title>The Band</title>
+    </head>
+    <body>
+        <!-- header -->
+        <div id="header">
+            <!-- begin navigation -->
+            <ul id="nav">
+                <li class = "res-home"><a  style="color: white; text-decoration: none" href="#slider">HOME</a></li>
+                <li><a class = "res-active" style="color: white; text-decoration: none" href="#about-me">BAND</a></li>
+                <li><a class = "res-active" style="color: white; text-decoration: none" href="#tour-date">TOUR</a></li>
+                <li><a class = "res-active" style="color: white; text-decoration: none" href="#main-contact">CONTACT</a></li>
+                <li>
+                    <a style="color: white; text-decoration: none"  href="#">
+                        MORE
+                        <i class="ti-angle-down" style="font-size:14px"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End navigation -->
+            <!-- Begin search -->
+            <div id="header-search">
+                <i class="ti-search search-icon"></i>
+            </div>
+            <!-- End search -->
+            <!-- Selector bar -->
+            <div class ="header-bar res-active" onclick = myFunctionAc()>
+                <i class="fa-solid fa-bars bar-icon"></i>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!-- slider  -->
+        <div id="slider">
+            <div class="slider-img-1 js-slider">
+                <div class="info" >
+                    <p class="city">Chicago</p>
+                    <p class="describe">Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div >
+            <div class="slider-img-2 js-slider">
+                <div class="info" >
+                    <p class="city">New York</p>
+                    <p class="describe">The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div >
+            <div class="slider-img-3 js-slider">
+                <div class="info" >
+                    <p class="city">Los Angeles</p>
+                    <p class="describe">We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div id="maincontent">
+            <!-- introduce -->
+            <div>
+                <div id="about-me">
+                    <h2 class="headtitle">THE BAND</h2>
+                    <p  class="slogan">We love music</p>
+                    <p  class="content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="member-list row">
+                        <div class="col col-3 text-center">
+                            <p class="Name">Name</p> 
+                            <img class="imgmem" src="/img/bandmember.jpg" alt="">
+                        </div>
+                        <div class="col col-3 text-center">
+                            <p class="Name">Name</p> 
+                            <img class="imgmem" src="/img/bandmember.jpg" alt="">
+                        </div>
+                        <div class="col col-3 text-center">
+                            <p class="Name">Name</p> 
+                            <img class="imgmem" src="/img/bandmember.jpg" alt="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <!-- schedule -->
+            <div id="tour">
+                <div id="tour-date">
+                    <h2 class="headtitle text-white">TOUR DATES</h2>
+                    <p  class="slogan text-white">Remember to book your tickets!</p>
+                    <div class="schedule">
+                        <ul>
+                            <li>
+                                <p class="Time">September <span class="sold-out">Sold out</span></p>
+                            </li>
+                            <li>
+                                <p class="Time">October <span class="sold-out">Sold out</span></p>
+                            </li>
+                            <li>
+                                <p class="Time">November <span class="quantity">3</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="location-list row">
+                        <div class="col col-3">
+                            <img src="/img/newyork.jpg" alt="" class="imglct">
+                            <div class="contentLct">
+                                <p class="NameLct">New York</p>
+                                <p class="TimeLct">Fri 27 Nov 2016</p>
+                                <p class="DescribeLct">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="Buy-button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <img src="/img/paris.jpg" alt="" class="imglct">
+                            <div class="contentLct">
+                                <p class="NameLct">Paris</p>
+                                <p class="TimeLct">Sat 28 Nov 2016</p>
+                                <p class="DescribeLct">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="Buy-button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <img src="/img/sanfran.jpg" alt="" class="imglct">
+                            <div class="contentLct">
+                                <p class="NameLct">San Francisco</p>
+                                <p class="TimeLct">Sun 29 Nov 2016</p>
+                                <p class="DescribeLct">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="Buy-button js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Buy tickets -->
+            <div class="model js-model">
+                <div class="model-container js-model-container">
+                    <div class="model-close js-model-close">
+                        <i class="ti-close"></i>
+                    </div>
+                    <header class="model-header">
+                        <i class="model-heading-icon ti-bag"></i>
+                        Tickets
+                    </header>
+                    <div class="model-body">
+                        <label for="ticket-quantity" class="model-label">
+                            <i class="ti-shopping-cart"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input id="ticket-quantity" type="text" class="model-input" placeholder="How many?">
+                        <label for="ticket-email" class="model-label">
+                            <i class="ti-user"></i>
+                            Send To
+                        </label>
+                        <input id="ticket-email" type="email" class="model-input" placeholder="Enter email">
+                        <button class="buy-ticket">
+                            PAY <i class="ti-check"></i>
+                        </button>
+                    </div>
+                    <div class="model-footer">
+                        <div class="model-help">Need <a href="#">help?</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div style="width:100%;" id="main-contact">
+                <div id="contact">
+                    <h2 class="headtitle">Contact</h2>
+                    <p  class="slogan">Fan? Drop a note!</p>
+                    <div class="row">
+                        <div class="contact-infomation col col-2">
+                            <i class="ti-location-pin contact-icon"></i>
+                            Chicago, US
+                            <br>
+                            <i class="ti-mobile contact-icon"></i>
+                            Phone: +00 151515
+                            <br>
+                            <i class="ti-email contact-icon"></i>
+                            Email: mail@mail.com
+                            <br>
+                        </div>
+                        <form class="contact-input col col-2">
+                            <div style="font-size:15px;">
+                                <div style="display: flex;">
+                                    <input required name="Name" type="text" placeholder="Name" class="contact-Name col col-2">
+                                    <input  required name="Email" type="email" placeholder="Email" class="contact-Email col col-2">
+                                </div>
+                                <input required name="Message" type="text" placeholder="Message" class="contact-Message">
+                            </div>
+                            <button class="contact-button" type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <img src="/img/map.jpg" style="filter: grayscale(50%); width: 100%;" alt=""> 
+            <div class="clear"></div>
+            <div class="end-footer">
+                <i class="ti-facebook end-icon"></i>
+                <i class="ti-instagram end-icon"></i>
+                <i class="ti-twitter-alt end-icon"></i>
+                <i class="ti-pinterest end-icon"></i>
+                <i class="ti-linkedin end-icon"></i>
+            </div>
+        </div>
+        <script>
+            // slider
+            const arr = document.getElementsByClassName("js-slider");
+            var Index = 0;
+            slider();
+            function slider(){
+                arr[Index].style.display = "none";
+                Index++;
+                if(Index>=arr.length) Index = 0;
+                arr[Index].style.display = "block";
+                setTimeout(slider,4000);
+            }
+            // buy ticket
+            const buyBtns = document.querySelectorAll('.js-buy-ticket');
+            const model = document.querySelector('.js-model');
+            const model_close= document.querySelector('.js-model-close');
+            const model_container=document.querySelector('.js-model-container');
+            function showBuyTickets(){
+                model.classList.add('open');
+            }
+            function hideBuyTickets(){
+                model.classList.remove('open');
+            }
+            for (const buyBtn of buyBtns) {
+                buyBtn.addEventListener('click', showBuyTickets);
+            }
+            model_close.addEventListener('click',hideBuyTickets);
+            model.addEventListener('click',hideBuyTickets);
+            model_container.addEventListener('click',function(event){
+                event.stopPropagation()
+            })
+            // buy ticket
+
+            // respon phone 
+            var r = document.querySelector(':root');
+            var check = false;
+            function myFunctionAc(){
+                if(check){
+                    r.style.setProperty('--display', 'none');
+                    check = false;
+                }
+                else{
+                    check = true;
+                    r.style.setProperty('--display', 'block');
+                }
+            }
+        </script>
+    </body>
+</html>

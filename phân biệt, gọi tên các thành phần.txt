@@ -1,0 +1,8 @@
+Những thành phần thường gặp trên website:
+1. Header
+2. Navigation
+3. Breadcrumb
+4. Sidebar
+5. Content
+6. Banner
+7. Footer

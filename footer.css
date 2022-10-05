@@ -1,0 +1,27 @@
+#footer{
+    width: 100%;
+    
+}
+.end-footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end-icon{
+    opacity: 0.7;
+    margin-left: 10px;
+    font-size:24px;
+}
+.end-icon:hover{
+    opacity: 0.4;
+}
+
+/* responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .end-footer {
+        height: 80px;
+        line-height: 80px
+    }
+}

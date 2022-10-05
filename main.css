@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-family: helvetica, arial, sans-serif;
+    scroll-behavior: smooth;
+    /* min-width: 500px; */
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.clear{
+    clear: both;
+}
+.text-white{
+    color: white !important;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-3 {
+    width: calc(100%/3);
+}
+.col-2 {
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+}
