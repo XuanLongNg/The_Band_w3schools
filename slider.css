@@ -2,15 +2,15 @@
     position: relative;
 }
 #slider .slider-img-1 {
-    background: url('https://github.com/XuanLongNg/The_Band_w3schools/tree/master/img/chicago.jpg') top center / cover no-repeat;
+    background: url('https://xuanlongng.github.io/The_Band_w3schools/img/chicago.jpg') top center / cover no-repeat;
     display: none;
 }
 #slider .slider-img-2 {
-    background: url('https://github.com/XuanLongNg/The_Band_w3schools/tree/master/img/ny.jpg') top center / cover no-repeat;
+    background: url('https://xuanlongng.github.io/The_Band_w3schools/img/ny.jpg') top center / cover no-repeat;
     display: none;
 }
 #slider .slider-img-3 {
-    background: url('https://github.com/XuanLongNg/The_Band_w3schools/tree/master/img/la.jpg') top center / cover no-repeat;
+    background: url('https://xuanlongng.github.io/The_Band_w3schools/img/la.jpg') top center / cover no-repeat;
     display: none;
 }
 #slider .slider-img-1,
