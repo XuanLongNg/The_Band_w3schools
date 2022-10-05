@@ -54,7 +54,7 @@
 }
 
 /* responsive */
-@media screen and (min-width: 740px) and (max-width: 1023px) {
+@media screen and (min-width: 740px) and (max-width: 1024px) {
     #contact {
         width: 100%;
         padding: 80px 20px;
@@ -81,7 +81,7 @@
 }
 
 /* Phone */
-@media (max-width: 739px) {
+@media (max-width: 740px) {
     #contact{
         width: 100%;
         padding: 80px 20px;
